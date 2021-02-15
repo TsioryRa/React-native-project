@@ -1,0 +1,66 @@
+{
+  "name": "react-navigation-shared-element",
+  "version": "3.0.0",
+  "description": "react-native-shared-element bindings for React Navigation",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "react-navigation-shared-element",
+    "navigation-shared-element",
+    "navigation",
+    "shared-element"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IjzerenHein/react-navigation-shared-element.git"
+  },
+  "author": "IjzerenHein <hrutjes@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IjzerenHein/react-navigation-shared-element/issues"
+  },
+  "homepage": "https://github.com/IjzerenHein/react-navigation-shared-element#readme",
+  "files": [
+    "src/",
+    "build/"
+  ],
+  "dependencies": {
+    "hoist-non-react-statics": "^3.3.2"
+  },
+  "devDependencies": {
+    "@commitlint/config-conventional": "^8.3.4",
+    "@react-navigation/bottom-tabs": "^5.3.3",
+    "@react-navigation/material-top-tabs": "^5.1.14",
+    "@react-navigation/native": "^5.4.3",
+    "@react-navigation/stack": "^5.4.0",
+    "@types/react": "^16.9.23",
+    "@types/react-native": "^0.61.17",
+    "commitlint": "^8.3.5",
+    "conventional-changelog-cli": "^2.0.31",
+    "eslint": "^7.1.0",
+    "expo-module-scripts": "^1.2.0",
+    "prettier": "^2.0.5",
+    "react-native-shared-element": "^0.7.0",
+    "react-navigation": "^4.3.7",
+    "react-navigation-stack": "^2.3.11"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*",
+    "react-native-shared-element": "*"
+  }
+}

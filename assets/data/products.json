@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Produit 1",
+    "description": "lorem ipsum dolor amet",
+    "image": "https://image.flaticon.com/icons/png/128/628/628324.png"
+  },
+  {
+    "name": "Produit 2",
+    "description": "lorem ipsum dolor amet",
+    "image": "https://image.flaticon.com/icons/png/128/1598/1598431.png"
+  }
+]
